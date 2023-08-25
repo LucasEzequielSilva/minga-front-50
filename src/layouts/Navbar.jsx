@@ -1,13 +1,22 @@
 import React, { useState } from "react";
+import { Link as Anchor, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  let navigate = useNavigate();
+  function redireccionar() {
+    navigate("/prueba");
+  }
+
   let [open, setOpen] = useState(false);
 
   let Drawer = () => (
     <div className="h-screen w-1/2 absolute top-0 left-0 bg-[#323232] z-30 flex flex-col p-4 gap-4 px-8">
-      <button onClick={() => setOpen(false)} className="rounded absolute right-4 w-fit">
+      <button
+        onClick={() => setOpen(false)}
+        className="rounded absolute right-4 w-fit"
+      >
         <svg
-        className="w-8 h-8"
+          className="w-8 h-8"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 14 14"
           fill="none"
@@ -19,8 +28,14 @@ const Navbar = () => {
         </svg>
       </button>
       <nav className="mt-12 flex flex-col gap-4 text-white">
-      <a href="">Home</a>
-      <a href="">Mangas</a>
+        <Anchor to="/">Home</Anchor>
+        <Anchor to="/mangas">Mangas</Anchor>
+        <button
+          onClick={redireccionar}
+          className="text-white border-solid	border-gray-300	border-2 p-1 rounded-md	"
+        >
+          PRUEBA
+        </button>
       </nav>
     </div>
   );
