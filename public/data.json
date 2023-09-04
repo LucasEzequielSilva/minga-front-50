@@ -1,0 +1,21 @@
+[
+    {
+        "name":"KIMETSU NO YAIBA",
+        "categories":["ADVENTURE","Shōjo","COMIC"],
+        "description":"Welcome to Minga, where dreams come true. Are you ready to immerse yourself in the best manga? Do not wait more!",
+        "color":"#2563EB",
+        "personaje":"tanjiro.png"
+    },
+    {
+        "name":"BOKU NO HERO",
+        "categories":["Seinen","SHONEN","COMIC"],
+        "description":"Step into the enchanting realm of Minga, where your wildest dreams materialize into reality. Are you prepared to embark on a journey through the finest manga experiences? The time for hesitation is over—seize the moment and dive into a world beyond imagination!",
+        "color":"#B91C1C"
+    },
+    {
+        "name":"JUJUTSU KAISEN",
+        "categories":["ADVENTURE","SHONEN","Kodomo"],
+        "description":"Greetings, fellow adventurer, to the extraordinary realm of Minga! Within these virtual pages, your most cherished dreams find a home and flourish into existence. Are you brimming with anticipation to delve into unparalleled manga escapades? Delay no further! Your next great adventure awaits within these digital tapestries.",
+        "color":"#ffffff"
+    }
+]
