@@ -42,18 +42,18 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full p-4 flex justify-between">
+      <header className="sticky top-0 left-0 w-full p-4 flex justify-between z-10">
         <div className="hover:bg-black/50 flex justify-center items-center rounded px-2 py-1">
           <img
             onClick={() => setOpen(true)}
             className="w-10 cursor-pointer"
-            src="./images/menu.png"
+            src="/images/menu.png"
             alt="menu"
           />
         </div>
         <img
           className="w-16 object-contain"
-          src="./images/logo.png"
+          src="/images/logo.png"
           alt="logo"
         />
       </header>
