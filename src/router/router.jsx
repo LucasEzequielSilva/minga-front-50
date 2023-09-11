@@ -19,6 +19,10 @@ const router = createBrowserRouter([
         element: <Mangas />,
       },
       {
+        path: "/mangas/:page",
+        element: <Mangas />,
+      },
+      {
         path: "/prueba",
         element: <h1>Probando tercer ruta</h1>,
       },
@@ -26,6 +30,7 @@ const router = createBrowserRouter([
         path: "/details/:id",
         element: <Details />,
       },
+
     ],
   },
 ]);
