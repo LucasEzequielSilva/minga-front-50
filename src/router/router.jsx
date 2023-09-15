@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Mangas from "../pages/Mangas";
 import Layout from "../layouts/Layout";
 import Details from "../pages/Details";
+import SignIn from "../pages/SignIn";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: <Details />,
+      },
+      {
+        path: "/signin",
+        element: <SignIn />,
       },
 
     ],
